@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+      "name": "build-id",
+      "pattern": "build-[0-9a-f]{8}",
+      "replace": "build-<ID>"
+    }
+  ]
+}
